@@ -115,6 +115,8 @@ radius = 18.0
 height = 42.0
 
 [node name="Female" type="Node2D"]
+position = Vector2(90, 115)
+scale = Vector2(0.6, 0.6)
 script = ExtResource("1_hltlx")
 metadata/_edit_group_ = true
 

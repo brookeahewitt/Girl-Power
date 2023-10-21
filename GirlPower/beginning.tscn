@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://13v3h3nf57i2"]
+
+[ext_resource type="PackedScene" uid="uid://dqkk2tahwyrji" path="res://bedroom.tscn" id="1_nsi53"]
+[ext_resource type="PackedScene" uid="uid://biidnbo0vt3iu" path="res://female.tscn" id="2_t8oio"]
+
+[node name="Beginning" type="Node2D"]
+
+[node name="Bedroom" parent="." instance=ExtResource("1_nsi53")]
+
+[node name="Female" parent="." instance=ExtResource("2_t8oio")]
